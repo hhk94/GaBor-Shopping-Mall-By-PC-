@@ -1,0 +1,2 @@
+<?php
+$webname='嘉宝厨柜官方商城';$weburl='siemensgabor.com';$reguser='N';$webcopy='@2017 嘉宝橱柜  版权所有  湘ICP备 12008428号';$webtitle='嘉宝橱柜官方商城   www.siemensgabor.com';$webkey='定制衣柜,定制家具,全屋家具定制,家具,橱柜,嘉宝橱柜，湖南橱柜，长沙橱柜';$webDescription='定制衣柜品牌嘉宝橱柜官方全屋定制家具网上商城,定制衣柜及其配套定制家具直销网,为客户提供家具、衣柜、整体衣柜、榻榻米、书柜等全屋家具定制,及五大免费家具定制测量';$webdir='/hekun/2018-03-21/phpmall';$webuserreg='Y';$webtel='400-0108-608';$webguest='N';?>

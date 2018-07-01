@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>左边选项栏</title>
+    <link rel="stylesheet" href="../css/inital.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+</head>
+<style>
+    a:hover{ text-decoration: none!important;}
+
+    .nav{
+        width: 180px;}
+    .nav>li{
+        font-size: 20px;
+        position: relative;
+        text-align: center;}
+    .navlist{left:0;top:100%;
+        width: 100%;
+        position:relative;}
+.navlist a{
+    font-size:16px;
+    color: white;;}
+    .navlist>li{
+        border-radius: 10px;;
+        -webkit-transition: all 0.3s ;
+        -moz-transition: all 0.3s ;
+        -ms-transition: all 0.3s ;
+        -o-transition: all 0.3s ;
+        transition: all 0.3s ;}
+    .navlist>li:hover{
+        background: #5bc0de;}
+
+
+</style>
+<body>
+
+<ul class="nav">
+    <li class="lis btn btn-success">网站常规管理
+        <ol class="navlist">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ol>
+    </li>
+    <li class="lis btn btn-success">文章管理
+        <ol class="navlist">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ol></li>
+    <li class="lis btn btn-success">商品管理
+        <ol class="navlist">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+        </ol></li>
+    <li class="lis btn btn-success">用户管理
+        <ol class="navlist">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">后台登录日志</a></li>
+        </ol></li>
+</ul>
+
+
+<script>
+    $('.navlist').hide();
+
+
+
+    $('.nav>li').click(function(){
+//    var i=$(this).index;
+      $(this).find('.navlist').slideToggle();
+
+})
+
+</script>
+</body>
+</html>

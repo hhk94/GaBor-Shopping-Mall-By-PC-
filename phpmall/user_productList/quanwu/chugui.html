@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>橱柜首页</title>
+</head>
+<link rel="stylesheet" href="css/comment.css">
+<link rel="stylesheet" href="css/initail.css">
+
+<style>
+    img{
+        width: 100%;}
+    .section1{
+        background:#666 ;
+        height: 500px;
+        margin-top:4px;
+    }
+
+.chuguicontainer{
+    width: 1170px;margin:0 auto;
+}
+
+    .section2>.chuguicontainer>div{
+        width: 570px;
+        height: 570px;
+        float: left;
+    }
+    .section2>.chuguicontainer>.rightBanner{
+        float: right;
+
+    }
+
+
+    .rightBottom{
+        margin-top:30px;
+    }
+    .rightBottom>a>h1{
+        padding-top:10px;
+        text-align: center;
+        font-size: 36px;
+        color: #000000;
+    }
+    .rightBottom>a>h2{
+        text-align: center;
+        font-size: 20px;
+        color: #000000;
+        margin-top:10px;
+    }
+    .rightBottom>a>h3{
+        margin-top:14px;
+        text-align: center;
+        font-size: 36px;
+        color: #ff0000;
+    }
+
+    .rightBottom>a>h4{
+
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        background: #000000;
+        width: 174px;
+        height: 40px;
+        line-height:40px;
+        margin-left:36.5%;
+        margin-top:16px;
+        margin-bottom:22px;
+    }
+    .rightBottom{
+        overflow: hidden;
+        background: #f2f2f2;
+    }
+
+    /*动画*/
+    .leftBanner:hover{
+        -webkit-box-shadow: 0 0 10px rgb(89,89,89) ;
+        -moz-box-shadow: 0 0 10px rgb(89,89,89) ;
+        box-shadow: 0 0 10px rgb(89,89,89) ;
+    }
+
+    .rightBottom>a>h4:hover{
+        -webkit-box-shadow: 0 0 10px rgb(89,89,89) ;
+        -moz-box-shadow: 0 0 10px rgb(89,89,89) ;
+        box-shadow: 0 0 10px rgb(89,89,89) ;
+    }
+
+    .section3{
+        overflow: hidden;
+        margin-top:35px;
+    }
+    .chuguiPro>div{
+        background: white;
+        width: 370px;
+        height: 410px;
+        float: left;
+        margin:10px 10px;
+    }
+    .chuguipic{
+        height: 260px;
+    }
+
+    .chuguiPro>div>a>h2{
+        font-size:16px;
+        text-align: center;
+        margin-top:5px;
+    }
+    .chuguiPro>div>a>h1{
+        font-size:16px;
+        text-align: center;
+        margin-top:20px;
+        color: black;
+
+    }
+    .chuguiPro>div>a>h1>span{
+        text-decoration: line-through;
+        color: #666;
+    }
+    .chuguiPro>div>a>h3{
+        width: 158px;
+        height: 40px;
+        line-height:40px;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        margin-left:106px;
+        margin-top:20px;
+        font-weight:bold;
+
+    }
+
+    .chuguiPro>div:hover{
+        -webkit-box-shadow: 0 0 10px rgb(89,89,89) ;
+        -moz-box-shadow: 0 0 10px rgb(89,89,89) ;
+        box-shadow: 0 0 10px rgb(89,89,89) ;
+    }
+    .chuguiPro>div:hover>a>h1>span{
+        display: none;
+    }
+    .chuguiPro>div:hover>a>h3{
+        background: black;
+        color: white;
+    }
+    .chuguiPro>div>a>h3,.chuguiPro>div>a>h1>span,.chuguiPro>div{
+        -webkit-transition: all 0.3s ;
+        -moz-transition: all 0.3s ;
+        -ms-transition: all 0.3s ;
+        -o-transition: all 0.3s ;
+        transition: all 0.3s ;
+    }
+
+.siecton4{
+    margin-top:44px;
+    margin-bottom:14px;
+    
+}
+
+.chuguititle{
+    margin-top:20px;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    margin-bottom:10px;
+}
+    .chuguititle::after,.chuguititle::before{
+        position: absolute;
+        top:50%;
+        content: '';
+        display: block;
+        width: 60px;
+
+        height: 2px;
+        background: #000;
+
+    }
+    .chuguititle::after{
+        left:464px;
+    }
+    .chuguititle::before{
+        right:464px;
+    }
+    .section3{
+        height: 530px;
+        position: relative;
+    }
+    .section3BG{
+        position: absolute;
+       left:22px;
+        z-index: -1;
+        background: #f2f2f2;
+        width: 1860px;
+        height: 530px;
+    }
+
+
+    .chuguiList>div{
+        width: 366px;
+        height: 400px;
+        float: left;
+        margin:20px 12px;
+    }
+    .chuguiList>div>a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .listFloat{
+        top:0;left:0;
+        position: absolute;
+        width: 100%;
+        height: 0;
+        background: rgba(0,0,0,0.2);
+        overflow: hidden;
+        -webkit-transition: all 0.3s ;
+        -moz-transition: all 0.3s ;
+        -ms-transition: all 0.3s ;
+        -o-transition: all 0.3s ;
+        transition: all 0.3s ;
+
+
+    }
+    .listFloat>h1{
+        position: absolute;
+        font-size: 16px;
+        padding:15px 46px;
+        background: rgba(0,0,0,0.8);
+        color: white;
+        left:50%;
+        top:50%;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+
+    /*动画*/
+    .chuguiList>div:hover .listFloat{
+        height: 100%;
+    }
+</style>
+
+
+<body>
+<div class="header" >
+    <div class="container">
+        <div class="headerLeft">
+            <p>Hi,欢迎来到嘉宝橱柜！<span></span></p>
+            <div class="logo">
+                <img src="../img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="headerRight">
+            <ul class="headerRtop">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">收藏嘉宝</a></li>
+                <li><a href="#">关注嘉宝</a></li>
+                <li><a href="#">售前咨询热线：<span>400-0108-608</span></a></li>
+                <li><a href="#">售后电话：0731-88334455</a></li>
+            </ul>
+            <ol class="headerRbottom">
+                <li class="navActive"><a href="javascript:top.location.href='../index.html'">首页</a></li>
+                <li><a href="javascript:top.location.href='../productList/productList.php'" >产品展示</a></li>
+                <li><a href="javascript:top.location.href='../design/design.html'">设计师</a></li>
+                <li><a href="javascript:top.location.href='../process/process.html'">定制流程</a></li>
+                <li><a href="javascript:top.location.href='../join/join.html'">加盟嘉宝</a></li>
+                <li><a href="javascript:top.location.href='../about/about.html'">关于嘉宝</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
+<!--第一屏-->
+<section class="section1" style="margin-bottom:47px">
+    <img src="img/dingzhibanner.jpg" alt="" style="height: 400px;">
+</section>
+<!--第二屏-->
+<div class="section2">
+    <div class="chuguicontainer">
+
+        <div class="leftBanner">
+            <a href="">
+                <img src="img/leftBanner.png" alt="">
+            </a>
+        </div>
+        <div class="rightBanner">
+            <div class="rightTop">
+                <img src="img/rightTop-1.png" alt="">
+            </div>
+            <div class="rightBottom">
+                <a href="">
+                    <h1>超值橱柜套餐</h1>
+                    <h2>3米台面+3米地柜+1.2米吊柜</h2>
+                    <h2>赠送烟机灶具</h2>
+                    <h3>￥6980</h3>
+                    <h4>立即购买</h4>
+                </a>
+            </div>
+        </div>
+        <br style="clear: both;">
+    </div>
+</div>
+<!--第三屏-->
+<div class="section3">
+
+    <div class="section3BG"></div>
+    <div class="chuguicontainer">
+        <h1 class="chuguititle">嘉宝热卖</h1>
+    </div>
+
+    <div class="chuguicontainer chuguiPro">
+        <div>
+            <a href="">
+                <div class="chuguipic">
+                    <img src="img/chuguipic1.png" alt="">
+                </div>
+                <h2>芬兰牧歌橱柜套餐</h2>
+                <h1>￥6980 <span>￥7880</span></h1>
+                <h3>立即购买</h3>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <div class="chuguipic">
+                    <img src="img/chuguipic2.png" alt="">
+                </div>
+                <h2>芬兰牧歌橱柜套餐</h2>
+                <h1>￥6980 <span>￥7880</span></h1>
+                <h3>立即购买</h3>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <div class="chuguipic">
+                    <img src="img/chuguipic3.png" alt="">
+                </div>
+                <h2>芬兰牧歌橱柜套餐</h2>
+                <h1>￥6980 <span>￥7880</span></h1>
+                <h3>立即购买</h3>
+            </a>
+        </div>
+        <br style="clear: both;">
+    </div>
+</div>
+<!--g广告-->
+<div class="siecton4">
+    <div class="chuguicontainer">
+        <a href=""><img src="img/chuguiguanggao.png" alt=""></a>
+    </div>
+</div>
+
+
+<div class="section5">
+    <div class="chuguicontainer  chuguiList">
+        <div>
+            <a href="">
+                <img src="img/chuguilist1.png" alt="">
+
+                <div class="listFloat">
+                    <h1>aosika</h1>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/chuguilist1.png" alt="">
+
+                <div class="listFloat">
+                    <h1>aosika</h1>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/chuguilist1.png" alt="">
+
+                <div class="listFloat">
+                    <h1>aosika</h1>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <img src="img/chuguilist1.png" alt="">
+
+                <div class="listFloat">
+                    <h1>aosika</h1>
+                </div>
+            </a>
+        </div>
+
+
+        <br style="clear: both;">
+    </div>
+
+</div>
+
+
+
+<!--footer-->
+<footer>
+    <div class="container1">
+        <ul>
+            <li>关于我们</li>
+            <li><a href="javascript:top.location.href='../about/about.html'">关于嘉宝</a></li>
+            <li><a href="../join/join.html">发展历程</a></li>
+            <li><a href="../about/about.html">荣誉资质</a></li>
+        </ul>
+        <ul>
+            <li>帮助中心</li>
+            <li><a href="http://www2.53kf.com/webCompany.php?arg=10133101&style=2&kflist=off&kf=19680502&zdkf_type=3&language=cn&charset=GBK" target="_blank">售前咨询</a></li>
+            <li><a href="http://www2.53kf.com/webCompany.php?arg=10133101&style=2&kflist=off&kf=19680502&zdkf_type=3&language=cn&charset=GBK" target="_blank">售后服务</a></li>
+            <li><a href="javascript:window.top.location='../php/admin/checkIn.php'" target="_blank">管理登录</a></li>
+        </ul>
+        <ul>
+            <li>购物指南</li>
+            <li><a href="../process/process.html">0元设计</a></li>
+            <li><a href="#">订单查询</a></li>
+            <li><a href="javascript:top.location.href='../productList/productList.html'">产品展示</a></li>
+        </ul>
+        <ul>
+            <li>嘉宝实力</li>
+            <li><a href="../productList/productList.html">案例展示</a></li>
+            <li><a href="../join/join.html">专家团队</a></li>
+            <li><a href="../about/about.html">嘉宝网点</a></li>
+        </ul>
+        <ul>
+            <li>新闻动态</li>
+            <li><a href="javascript:top.location.href='new/news.html'">公司新闻</a></li>
+            <li><a href="../about/about.html">活动动态</a></li>
+            <li><a href="../about/about.html">行业新闻</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>战略合作</h1>
+        <ol>
+            <li><a href="#"><img src="../indexImg/indexhezuo1.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo2.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo3.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo4.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo5.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo6.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo7.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo8.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo9.png" alt=""></a></li>
+            <li><a href="#"><img src="../indexImg/indexhezuo10.png" alt=""></a></li>
+        </ol>
+        <h2>@2017 嘉宝橱柜  版权所有  湘ICP备 12008428号</h2>
+    </div>
+</footer>
+
+</body>
+
+
+<!--53kf 客服系统模块 -->
+<script>(function() {var _53code = document.createElement("script");_53code.src = "//tb.53kf.com/code/code/10133101/2";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
+<!--百度400电话 -->
+<div style="height:0;display:none;overflow:hidden;">
+    <script src="http://s22.cnzz.com/stat.php?id=5873751&web_id=5873751"></script>
+    <script>
+        document.write(unescape("%3Cscript src='" + "https:" +"hm.baidu.com/h.js%3F16b1a369d1392d8f7e8978b592e0139f' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+
+
+</html>

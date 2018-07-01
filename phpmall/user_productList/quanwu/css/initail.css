@@ -1,0 +1,29 @@
+*{margin:0;border:0;padding:0}
+img{
+    display: block;}
+html{
+    font-family:"微软雅黑";}
+*{margin:0;padding:0;border:0}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal
+;}
+em{
+    font-style: normal;}
+a{
+    text-decoration: none;
+    color: #666;}
+header,footer,section{
+    display: block;}
+.container{margin:0 auto;
+    width: 1280px;}
+.clearFix::after,.clearFix::before{
+    content: '';
+    display: block;
+    position: absolute;
+    height:0;
+    width:0;
+    line-height:0;
+    clear: both;
+    visibility: hidden;
+}

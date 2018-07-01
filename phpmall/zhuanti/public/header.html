@@ -1,0 +1,49 @@
+
+
+<div class="header" >
+    <div class="container">
+        <div class="headerLeft">
+            <p>Hi,欢迎来到嘉宝橱柜！<span></span></p>
+            <div class="logo">
+                <img src="../public/logo.png" alt="">
+            </div>
+        </div>
+        <div class="headerRight">
+            <ul class="headerRtop">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">收藏嘉宝</a></li>
+                <li><a href="#">关注嘉宝</a></li>
+                <li><a href="#">售前咨询热线：<span>400-0108-608</span></a></li>
+                <li><a href="#">售后电话：0731-88334455</a></li>
+            </ul>
+            <ol class="headerRbottom">
+                <li class="navActive"><a href="javascript:top.location.href='../index.html'">首页</a></li>
+                <li><a href="javascript:top.location.href='../../productList/productList.php'" >产品展示</a></li>
+                <li><a href="javascript:top.location.href='../../design/design.html'">设计师</a></li>
+                <li><a href="javascript:top.location.href='../../process/process.html'">定制流程</a></li>
+                <li><a href="javascript:top.location.href='../../join/join.html'">加盟嘉宝</a></li>
+                <li><a href="javascript:top.location.href='../../about/about.html'">关于嘉宝</a></li>
+            </ol>
+
+
+        </div>
+
+
+        <br style="clear: both;">
+    </div>
+</div>
+
+<script>
+    $(function(){
+        //导航
+        $('.headerRbottom>li').mouseover(function(){
+            $(this).addClass('navActive').siblings('li').removeClass('navActive');
+        });
+
+
+
+
+
+    })
+
+</script>

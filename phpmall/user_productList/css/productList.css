@@ -1,0 +1,93 @@
+.section1{margin-top:-39px;
+    width: 100%;
+    /*background: green;*/
+    height:400px;}
+.container1>ul{margin-top:66px;margin-left:142px;margin-bottom:56px;
+    overflow: hidden;}
+.container1 li{
+    width: 198px;
+    height: 48px;border:1px solid #34495e;
+    float: left;}
+.container1 li a{
+    font-size: 20px;
+    width: 198px;
+    font-weight:bold;
+    display: block;
+    color: #34495e;
+    text-align: center;
+    line-height:50px;}
+.productOn{
+    color: white!important;
+    background: #34495e;}
+/*产品*/
+.container2{
+    overflow: hidden;}
+.container2 img{
+    width: 100%;
+    height: 100%;}
+.container2 a{margin:0 13px 88px 13px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    float: left;
+    display: block;}
+.container2 a>div{
+    height: 100%;
+    background: pink;
+    width: 100%;}
+.container2 a>h1{
+    position: absolute;
+    left:0;bottom:0;
+    width: 100%;
+    height: 60px;
+    line-height:60px;
+    text-align: center;
+    background: #34495e;opacity: .8;
+    color: white;}
+.section2{
+    position: relative;}
+.container3{margin-bottom:100px;
+    height: 40px;
+    position: relative;}
+.container3 a{
+    display: inline-block;
+    width: 48px;
+    height: 48px;border:1px solid #34495e;
+    text-align: center;
+    line-height:50px;
+    font-size: 18px;}
+.container3>div{
+    left:50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);}
+
+
+.container2 img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 5s ;
+    -moz-transition: all 5s ;
+    -ms-transition: all 5s ;
+    -o-transition: all 5s ;
+    transition: all 5s ;}
+.container2 a:hover img{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);}
+.container2 a{-webkit-transition: all .3s ;
+    -moz-transition: all .3s ;
+    -ms-transition: all .3s ;
+    -o-transition: all .3s ;
+    transition: all .3s ;
+    overflow: hidden; }
+
+.container2 a:hover{
+    -webkit-box-shadow: 0 0 10px #666 ;
+    -moz-box-shadow: 0 0 10px #666 ;
+    box-shadow: 0 0 10px #666 ;}

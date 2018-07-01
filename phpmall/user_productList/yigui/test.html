@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lianxi</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        .clearfix:after {
+            content: " ";
+            display: block;
+            clear: both;
+            height: 0;
+        }
+        .clearfix {
+            zoom: 1;
+        }
+        .floated{
+            float: left;
+            width: 50px;
+            height: 50px;
+            background: black;
+        }
+        .floated2{
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+
+<div>aaa</div>
+<div class="clearfix">
+    <div class="floated"></div>
+    <div class="floated floated2  "></div>
+</div>
+<div>bbbbbbb</div>
+</body>
+<script>
+
+</script>
+</html>

@@ -1,0 +1,24 @@
+
+/*第一块*/
+.section1{
+    height: 60px;
+    -webkit-box-shadow: 0 5px 5px #e1e1e1 ;
+    -moz-box-shadow: 0 5px 5px #e1e1e1 ;
+    box-shadow: 0 5px 5px #e1e1e1 }
+.section1>.container>h3{
+    font-size: 18px;
+    line-height:58px;
+    color: #000000;
+    float: left;}
+.section1>.container{
+    overflow: hidden;}
+.select{
+    overflow: hidden;
+    float: right;}
+.select>li{
+    float: left;}
+.select>li+li>a{border-left:2px solid #000}
+.select a{padding:0 32px;
+    font-size: 18px;
+    line-height: 58px;
+    color: #000000;}
